@@ -1,8 +1,18 @@
 # Mentorsoft-engage22
 
 ![language](https://img.shields.io/badge/-Microsoft%20Engage%2022-bluevoilet)
+![language](https://img.shields.io/github/languages/top/Yash9460/Mentorsoft-engage22?style=for-the-badge)
+![language](https://img.shields.io/github/last-commit/Yash9460/Mentorsoft-engage22?style=for-the-badge)
+
 
 This project is being developed for Microsoft Engage 2022 mentorship program. This is a Facial Recognition Project
+
+
+It is currently hosted on heroku.
+
+Website url: <a href = "" target = "_blank">\</a>
+
+Watch video demo <a href = "" target = "_blank">here</a>
 
 ## Goals
 
@@ -44,3 +54,18 @@ This project is being developed for Microsoft Engage 2022 mentorship program. Th
 - While deploying, I have learnt various types of datasets, error resolving and learn more about the APIs.
 
 - Although the most challenging part is to converting the jpeg images into numpy integer arrays while training the model and also implementation of python script into frontend web application.
+
+## Tech Stack:
+
+
+## Features:
+
+
+## Restrictions:
+
+
+## Local Setup
+
+
+
+#### If you like it please give it a star!! ⭐
