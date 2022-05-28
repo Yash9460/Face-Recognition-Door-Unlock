@@ -67,12 +67,9 @@ Watch video demo <a href = "" target = "_blank">here</a>
 
 ## Features:
 
-
-## Restrictions:
-
-
-## Local Setup
-
-
+- Face unlock system
+- Jarvis ("Personal desktop assisstant")
+- Providing Security
+- Preventing crimes
 
 #### If you like it please give it a star!! ⭐
