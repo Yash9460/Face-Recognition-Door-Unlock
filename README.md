@@ -57,6 +57,13 @@ Watch video demo <a href = "" target = "_blank">here</a>
 
 ## Tech Stack:
 
+- OpenCV
+- Machine learning
+- Streamlit
+- Html/CSS
+- Python
+- Git
+
 
 ## Features:
 
