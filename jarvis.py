@@ -1,4 +1,5 @@
 import speech_recognition as sr
+import streamlit as st
 import pyttsx3
 import datetime
 import wikipedia
@@ -39,7 +40,7 @@ def takeCommand():
     #Function for taking voice commands from user 
     r=sr.Recognizer()
     with sr.Microphone() as source:
-        print("Listening...")
+        st.write("Listening...")
         audio=r.listen(source)
 
         try:
@@ -73,7 +74,7 @@ def Taskexecute():
             if 'who is' in statement:
                 person = statement.replace('who is','')
                 info = wikipedia.summary(person,1)
-                print(info)
+                st.write(info)
                 speak(info)
 
             elif 'open youtube' in statement:
@@ -105,7 +106,7 @@ def Taskexecute():
                 res = client.query(question)
                 answer = next(res.results).text
                 speak(answer)
-                print(answer)    
+                st.write(answer)    
             elif 'who are you' in statement or 'what can you do' in statement:
                 speak('I am Anonymous version 1 point O your personal assistant. I am programmed to minor tasks like'
                     'opening youtube,google chrome, gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather' 
@@ -135,7 +136,7 @@ def Taskexecute():
                         str(current_humidiy) +
                         "\n description  " +
                         str(weather_description))
-                    print(" Temperature in kelvin unit = " +
+                    st.write(" Temperature in kelvin unit = " +
                         str(current_temperature) +
                         "\n humidity (in percentage) = " +
                         str(current_humidiy) +
