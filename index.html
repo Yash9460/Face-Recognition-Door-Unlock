@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head><title>first site</title>
+	<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+<style>
+
+	body{
+		background-color: black;
+		margin:0px;
+	}
+.bg1{
+	background: url("https://i.ibb.co/kyX5CCq/design.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+}
+
+.bg2{
+	background-color: rgb(77, 180, 256);
+	width: 95%;
+	height: 600px;
+	border-radius: 20px;
+	padding: 30px 0px;
+	margin: 150px 35px;
+	box-shadow: 0 12px 30px 0 rgb(77, 180, 256);
+	opacity: 0.9
+}
+.tex{
+	margin: 50px 100px;
+}
+.tex h2{
+	font-size: 50px;
+}
+
+.tex p{
+	font-size: 20px;
+}
+.bg1 h1{
+	color: white;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+li.h1{
+
+	color: white;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.footer{
+
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
+</style>
+</head>
+<body>
+ <!-- first division over first layer background -->
+
+<div class="bg1">
+
+
+	<!-- unordered list -->
+	<ul>
+  <li><a class="active" href="#">Home</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="login.html">Login/Register</a></li>
+	</ul>
+	<h1><center>FACE RECOGNITION</center></h1>
+
+	<!-- cards -->
+</div>
+
+<div class="bg2">
+	<div class="tex">
+		<center><h2>Goals</h2></center>
+	<br>
+	<br>
+	<center><p>- The main goal of this project is for security by face recognition. This can be beneficial for society, including increasing safety and security, preventing crimes, and reducing human interaction. 
+		<br><br>
+- Also this app has a voice bot which will open only when the app is unlocked after recognizing the user's face.<br><br>
+- This voice bot (named "Jarvis") is an ai personal assistant that can perform various task by taking voice commands by users like if user says <br><br>
+"Open Google", then it can execute the command and opens the Google Chrome and if user says "Search {Anything} on Google" then this app will search that thing and give the results to the user.''')
+</p></center>
+	</div>
+	
+</div>
+
+<div class="bg2">
+	<div class="tex">
+		<center><h2>Implementation details</h2></center>
+	<br>
+	<br>
+	<center><p>1. Collect training data. 
+
+First, the capture script of python will run and it will capture some set of images as sample to recognise
+<br>
+<br>
+2. Train the model 
+
+In the training script of model, the jpeg images converted into numpy array in form of integer and the model got trained
+we need to train the software by inserting new pictures into the database. The system will be able to learn and identify images of faces and can then compare them with other images that we have not trained it with.
+
+To build a good system, we need to start by taking a picture of a persons face. Then extracting the most important facial features like the eyes, nose, mouth, and eyebrows.
+
+We can extract various data points such as distance between specific points on the face or angles of the face etc., which are important for identifying different faces.
+<br><br>
+3.  Testing of software
+
+In this phase, it recognizing faces when it is in live mode (recognizing faces when they are in real-time). 
+If the face matches with the dataset, then app will be unlocked otherwise app will locked
+</p></center>
+	</div>
+</div>
+	
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#"><i>Contact us</i></a></li>
+<li><a href="#"><i>Our Services</i></a></li>
+<li><a href="#"><i>Privacy Policy</i></a></li>
+<li><a href="#"><i>Terms & Conditions</i></a></li>
+<li><a href="#"><i>Career</i></a></li>
+</ul>
+</div>
+
+<div class="row">
+All rights reserved || Designed By: Yash Bansal;
+</div>
+</div>
+</footer>	
+</body>
+</html>
