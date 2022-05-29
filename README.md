@@ -10,9 +10,9 @@ This project is being developed for Microsoft Engage 2022 mentorship program. Th
 
 It is currently hosted on heroku.
 
-Website url: <a href = "" target = "_blank">\</a>
 
-Watch video demo <a href = "" target = "_blank">here</a>
+
+Watch video demo <a href = "https://youtu.be/F9h0vMX6oZc" target = "_blank">here</a>
 
 ## Goals
 
