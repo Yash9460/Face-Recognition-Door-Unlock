@@ -8,8 +8,6 @@
 This project is being developed for Microsoft Engage 2022 mentorship program. This is a Facial Recognition Project
 
 
-It is currently hosted on heroku.
-
 
 
 Watch video demo <a href = "https://youtu.be/F9h0vMX6oZc" target = "_blank">here</a>
