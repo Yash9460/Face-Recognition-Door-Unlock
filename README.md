@@ -1,11 +1,4 @@
-# Microsoft-engage22
-
-![language](https://img.shields.io/badge/-Microsoft%20Engage%2022-bluevoilet)
-![language](https://img.shields.io/github/languages/top/Yash9460/Mentorsoft-engage22?style=for-the-badge)
-![language](https://img.shields.io/github/last-commit/Yash9460/Mentorsoft-engage22?style=for-the-badge)
-
-
-This project is being developed for Microsoft Engage 2022 mentorship program. This is a Facial Recognition Project
+# Facial Recognition Project
 
 
 
